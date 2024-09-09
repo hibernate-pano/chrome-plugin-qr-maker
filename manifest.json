@@ -5,7 +5,8 @@
   "description": "在页面右下角显示网站logo,点击生成当前页面的二维码",
   "permissions": [
     "activeTab",
-    "https://api.qrserver.com/"
+    "https://api.qrserver.com/",
+    "clipboardWrite"
   ],
   "content_scripts": [
     {
