@@ -1,0 +1,29 @@
+# 忽略 .vscode 目录及其所有内容
+.vscode/
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略 npm 依赖目录
+node_modules/
+
+# 忽略日志文件
+*.log
+
+# 忽略编译输出
+/dist
+/build
+
+# 忽略环境配置文件
+.env
+.env.local
+.env.*.local
+
+# 忽略编辑器配置文件
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.idea/
+*.swp
+*.swo
